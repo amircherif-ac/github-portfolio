@@ -201,7 +201,7 @@ img {
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--second-color);
 }
 .home__social-icon:hover {
@@ -217,7 +217,7 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  width: 260px;
 }
 
 /*BUTTONS*/
@@ -247,7 +247,7 @@ img {
 }
 .about__img img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 200px;
 }
 
 /* ===== SKILLS =====*/
@@ -348,14 +348,14 @@ img {
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
-  margin-bottom: var(--mb-4);
+  margin-bottom: 0;
 }
 .footer__icon {
   font-size: 1.5rem;
