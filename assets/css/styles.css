@@ -98,7 +98,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  max-width: 720px;
   display: grid;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -314,6 +314,7 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  max-width: fit-content;
 }
 .work__img img {
   transition: 1s;
@@ -468,7 +469,7 @@ img {
     text-align: initial;
   }
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
 }
